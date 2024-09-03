@@ -1,0 +1,62 @@
+.header {
+  position: sticky;
+  top: 0;
+  display: flex;
+  padding: 2.5rem 0;
+  justify-content: space-between;
+  background-color: white;
+  align-items: center;
+
+  &__logoContent {
+    width: 14.9rem;
+    height: 3.7rm;
+  }
+
+  &__logo {
+    max-width: 100%;
+  }
+
+  &__navigation {
+    display: flex;
+    gap: 4rem;
+  }
+
+  &__link:hover {
+    color: #fa5757;
+  }
+
+  &__right {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 3rem;
+  }
+
+  &__sign-in {
+    font-weight: 500;
+  }
+
+  &__sign-up {
+    padding: 1.3rem 4.5rem;
+    color: #fa5757;
+    border: 2px solid #fa5757;
+    border-radius: 5rem;
+    font-weight: 500;
+
+    &:hover {
+      color: white;
+      background-color: #fa5757;
+      cursor: pointer;
+    }
+  }
+
+  .container:has(#about:target) .navigation__about,
+  .container:has(#features:target) .navigation__features,
+  .container:has(#pricing:target) .navigation__pricing,
+  .container:has(#testimonials:target) .navigation__testimonials,
+  .container:has(#help:target) .navigation__help {
+    color: #fa5757;
+    text-decoration: underline;
+    font-weight: 600;
+  }
+}

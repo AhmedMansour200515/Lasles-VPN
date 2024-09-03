@@ -1,0 +1,34 @@
+.list {
+  display: flex;
+  padding: 37px 0;
+  margin-top: 100px;
+  border-radius: 8px;
+  justify-content: space-around;
+  box-shadow: 0px 4rem 2.7rem -1rem rgb(13 16 37 / 6%);
+
+  &__colmun {
+    display: flex;
+    align-items: center;
+    gap: 3.6rem;
+    padding: 35px 113px;
+  }
+
+  &__icon {
+    width: 5.5rem;
+    height: 5.5rem;
+  }
+
+  &__num {
+    font-weight: 700;
+    font-size: 25px;
+    margin-bottom: 5px;
+  }
+}
+
+.usrname {
+  color: rgba(79, 86, 101, 1);
+}
+
+.list__colmun:not(:nth-of-type(3)) {
+  border-right: 2px solid #eeeff2;
+}

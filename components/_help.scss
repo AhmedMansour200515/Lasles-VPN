@@ -1,0 +1,86 @@
+.help {
+  position: relative;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  margin-top: 5rem;
+  margin-bottom: 5rem;
+  align-items: center;
+  &__Content {
+    display: flex;
+    align-items: center;
+    gap: 1.5rem;
+    width: 149px;
+  }
+
+  &__vpn {
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 24px;
+  }
+
+  &__description {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 30px;
+    width: 340px;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    color: #4f5665;
+  }
+
+  &__socials {
+    display: flex;
+    gap: 2rem;
+    margin-left: -2rem;
+  }
+
+  &__social {
+    width: 33.6px;
+    height: 33.6px;
+  }
+
+  &__footer {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 30px;
+    color: #afb5c0;
+    margin-top: 3rem;
+  }
+
+  &__vpnn {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 30px;
+  }
+
+  &__links {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    margin-top: 3rem;
+  }
+
+  &__title {
+    margin-bottom: 2rem;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 30px;
+  }
+
+  &__lists {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+  }
+
+  &__list {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 30px;
+    color: #4f5665;
+
+    &:hover {
+      color: red;
+      text-decoration: underline;
+    }
+  }
+}

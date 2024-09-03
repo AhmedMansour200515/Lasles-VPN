@@ -1,0 +1,31 @@
+.bio {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  align-items: center;
+  margin-top: 2rem;
+}
+
+.lasles {
+  font-weight: 700;
+  font-size: 50px;
+  line-height: 70px;
+}
+
+.bio__imge {
+  max-width: 100%;
+}
+
+.text__description {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 30px;
+  color: rgba(79, 86, 101, 1);
+  width: 555px;
+  margin-bottom: 5rem;
+}
+.headvbn {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 30px;
+  color: rgba(79, 86, 101, 1);
+}
